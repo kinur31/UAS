@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <CD>
+    <NO>1</NO>
+    <STUDY>ARSITEKTUR</STUDY>
+  </CD>
+  <CD>
+    <NO>2</NO>
+    <STUDY>ARSITEKTUR INTERIOR</STUDY>
+  </CD>
+  <CD>
+    <NO>3</NO>
+    <STUDY>BIOLOGI</STUDY>
+  </CD>
+  <CD>
+    <NO>4</NO>
+    <STUDY>FARMASI</STUDY>
+  </CD>
+  <CD>
+    <NO>5</NO>
+    <STUDY>FISIKA</STUDY>
+  </CD>
+  <CD>
+    <NO>6</NO>
+    <STUDY>GEOFISIKA</STUDY>
+  </CD>
+  <CD>
+    <NO>7</NO>
+    <STUDY>GEOGRAFI</STUDY>
+  </CD>
+  <CD>
+    <NO>8</NO>
+    <STUDY>GEOLOGI</STUDY>
+  </CD>
+  <CD>
+    <NO>9</NO>
+    <STUDY>GIZI</STUDY>
+  </CD>
+  <CD>
+    <NO>10</NO>
+    <STUDY>ILMU KEPERAWATAN</STUDY>
+  </CD>
+  <CD>
+    <NO>11</NO>
+    <STUDY>ILMU KESEHATAN MASYARAKAT</STUDY>
+  </CD>
+  <CD>
+    <NO>12</NO>
+    <STUDY>ILMU KOMPUTER</STUDY>
+  </CD>
+  <CD>
+    <NO>13</NO>
+    <STUDY>KESEHATAN LINGKUNGAN</STUDY>
+  </CD>
+  <CD>
+    <NO>14</NO>
+    <STUDY>KESELAMATAN DAN KESEHATAN KERJA</STUDY>
+  </CD>
+  <CD>
+    <NO>15</NO>
+    <STUDY>KIMIA</STUDY>
+  </CD>
+  <CD>
+    <NO>16</NO>
+    <STUDY>MATEMATIKA</STUDY>
+  </CD>
+  <CD>
+    <NO>17</NO>
+    <STUDY>PENDIDIKAN DOKTER</STUDY>
+  </CD>
+  <CD>
+    <NO>18</NO>
+    <STUDY>PENDIDIKAN DOKTER GIGI</STUDY>
+  </CD>
+  <CD>
+    <NO>19</NO>
+    <STUDY>SISTEM INFORMASI</STUDY>
+  </CD>
+  <CD>
+    <NO>20</NO>
+    <STUDY>STATISTIKA</STUDY>
+  </CD>
+  <CD>
+    <NO>21</NO>
+    <STUDY>TEKNIK ELEKTRO</STUDY>
+  </CD>
+  <CD>
+    <NO>22</NO>
+    <STUDY>TEKNIK INDUSTRI</STUDY>
+  </CD>
+  <CD>
+    <NO>23</NO>
+    <STUDY>TEKNIK KIMIA</STUDY>
+  </CD>
+  <CD>
+    <NO>24</NO>
+    <STUDY>TEKNIK KOMPUTER</STUDY>
+  </CD>
+  <CD>
+    <NO>25</NO>
+    <STUDY>TEKNIK LINGKUNGAN</STUDY>
+  </CD>
+  <CD>
+    <NO>26</NO>
+    <STUDY>TEKNIK MESIN</STUDY>
+  </CD>
+  <CD>
+    <NO>27</NO>
+    <STUDY>TEKNIK METALURGI DAN MATERIAL</STUDY>
+  </CD>
+  <CD>
+    <NO>28</NO>
+    <STUDY>TEKNIK PERKAPALAN</STUDY>
+  </CD>
+  <CD>
+    <NO>29</NO>
+    <STUDY>TEKNIK SIPIL</STUDY>
+  </CD>
+  <CD>
+    <NO>30</NO>
+    <STUDY>TEKNOLOGI BIOPROSES</STUDY>
+  </CD>
+</CATALOG>

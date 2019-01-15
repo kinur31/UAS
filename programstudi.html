@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head> <!-- Start of head  -->
+    <meta charset="utf-8">
+        <title>Program Studi Universitas Indonesia</title>
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel='stylesheet' id='style-css'  href='css/style.css' type='text/css'/>
+        <link rel='stylesheet' id='style-css'  href='css/navigasi.css' type='text/css'/>
+        <link rel='stylesheet' id='style-css'  href='css/slideshow.css' type='text/css'/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+    </head>
+    <style>
+            table,th,td {
+              border : 1px solid black;
+              border-collapse: collapse;
+            }
+            th,td {
+              padding: 5px;
+            }
+            </style>
+    <body>
+         <div class="container">
+            <div class="header">
+                <div class="head1">
+                    <a href="https://www.linkedin.com/school/university-of-indonesia"><img src="img/inv/linkedin.png"></a>
+                    <a href="https://www.facebook.com/ui.ac.id"><img src="img/inv/facebook.png"></a>
+                    <a href="https://twitter.com/univ_indonesia"><img src="img/inv/twitter.png"></a>
+                    <a href="https://www.youtube.com/user/UIUpdate2"><img src="img/inv/youtube.png"></a>
+                    <a href="https://www.instagram.com/univ_indonesia"><img src="img/inv/instagram.png"></a>
+                </div>
+                <div class="head2">
+                        <a href="index.html"><img src="img/makara-web.png"/></a>
+                        <div class="navbar">
+                                <a href="index.html">Beranda</a>
+                                <a href="programstudi.html">Program Studi</a>
+                                <a href="fungsijs.html">Fungsi Javascript</a>
+                                <a href="identitasku.html">Identitasku</a>
+                                <a href="about.html">Tentang UI</a>
+                                <a href="info.html">Hubungi Kami</a>
+                        </div>      
+                </div>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <br><a style="margin-left: 100px; color:#bababa;">Program Studi</a></br>
+                </div>
+                <div style="margin-left: 500px;">
+                        <br><br>
+                        <table>
+                            <tr>
+                                <th><h2>SAINTEK</h2></th>
+                                <th><h2>SOSHUM</h2></th>
+                            </tr>
+                            <tr>
+                                <td><button type="button" onclick="loadDoc1()">Klik Disini</button></td>
+                                <td><button type="button" onclick="loadDoc2()">Klik Disini</button></td>
+                            </tr>
+                        </table>
+        
+                        <br><br>
+                        <table id="demo"></table>
+        
+                        <script>
+                        function loadDoc1() {
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200) {
+                            myFunction(this);
+                            }
+                        };
+                        xhttp.open("GET", "xml/cd_saintek.xml", true);
+                        xhttp.send();
+                        }
+                        function loadDoc2() {
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function() {
+                            if (this.readyState == 4 && this.status == 200) {
+                            myFunction(this);
+                            }
+                        };
+                        xhttp.open("GET", "xml/cd_soshum.xml", true);
+                        xhttp.send();
+                        }
+                        function myFunction(xml) {
+                        var i;
+                        var xmlDoc = xml.responseXML;
+                        var table="<tr><th>No</th><th>Program Studi</th></tr>";
+                        var x = xmlDoc.getElementsByTagName("CD");
+                        for (i = 0; i <x.length; i++) { 
+                            table += "<tr><td>" +
+                            x[i].getElementsByTagName("NO")[0].childNodes[0].nodeValue +
+                            "</td><td>" +
+                            x[i].getElementsByTagName("STUDY")[0].childNodes[0].nodeValue +
+                            "</td></tr>";
+                        }
+                        document.getElementById("demo").innerHTML = table;
+                        }
+                        </script>
+                </div>        
+                
+            </div>
+            <div class="footer">
+                <div class="footer2">
+                    <p style="margin-left:50px; padding: 50px;">Hak Cipta @ Universitas Indonesia</br>
+                        Developed by Rizky Noor Ichwanudin @ 2018
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
